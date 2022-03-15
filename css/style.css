@@ -261,7 +261,7 @@ footer {
   .botonesInicio li {
     position: relative;
     display: inline-block;
-    font-size: 0.83rem;
+    font-size: 0.7rem;
   }
   .botonesInicio li a {
     text-decoration: none;
