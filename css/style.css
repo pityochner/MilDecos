@@ -8,6 +8,7 @@ header {
   position: sticky;
   top: 0;
   background-color: #f5e5b1fd;
+  z-index: 1;
 }
 .logoportada {
   margin-left: 20px auto;
@@ -179,11 +180,8 @@ main {
 }
 .maps {
   margin: 20px auto;
-  border: 0.1rem #b9a668fd solid;
-  border-radius: 1.5rem;
   width: 25rem;
   height: 19rem;
-  overflow: hidden;
 }
 .text {
   resize: none;
@@ -196,6 +194,21 @@ main {
 }
 .nosotros h1 {
   font-size: 2rem;
+}
+.card {
+  border-radius: 1.5rem;
+  overflow: auto;
+  background-color: #b9a668fd;
+  padding-top: 0.7rem;
+}
+.card img {
+  border-radius: 1.5rem;
+}
+.card-body {
+  background-color: #b9a668fd;
+}
+.card-text {
+  color: #f5e5b1fd;
 }
 
 /* footer */
@@ -233,7 +246,58 @@ footer {
   display: inline;
   margin-left: 1%;
 }
-
+@media screen and (max-width: 1025px) {
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    border: none;
+  }
+  .botonesInicio li {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .botonesInicio li a {
+    text-decoration: none;
+    color: #f5e5b1fd;
+    display: block;
+    padding: 10px 50px;
+  }
+  .botonesInicio li a:hover {
+    background-color: #ecd482fd;
+    color: #b9a668fd;
+  }
+}
+@media screen and (max-width: 769px) {
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    border: none;
+  }
+  .botonesInicio li {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+  }
+  .botonesInicio li a {
+    text-decoration: none;
+    color: #f5e5b1fd;
+    display: block;
+    padding: 10px 30px;
+  }
+  .botonesInicio li a:hover {
+    background-color: #ecd482fd;
+    color: #b9a668fd;
+  }
+}
 @media screen and (max-width: 426px) {
   header {
     position: sticky;
@@ -374,5 +438,57 @@ footer {
   }
   .footerRoto {
     margin-top: 32rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    border: none;
+  }
+  .botonesInicio li {
+    position: relative;
+    display: inline-block;
+    font-size: 0.6rem;
+  }
+  .botonesInicio li a {
+    text-decoration: none;
+    color: #f5e5b1fd;
+    display: block;
+    padding: 0.5rem;
+  }
+  .botonesInicio li a:hover {
+    background-color: #ecd482fd;
+    color: #b9a668fd;
+  }
+}
+@media screen and (max-width: 321px) {
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    border: none;
+  }
+  .botonesInicio li {
+    position: relative;
+    display: inline-block;
+    font-size: 0.5rem;
+  }
+  .botonesInicio li a {
+    text-decoration: none;
+    color: #f5e5b1fd;
+    display: block;
+    padding: 0.4rem;
+  }
+  .botonesInicio li a:hover {
+    background-color: #ecd482fd;
+    color: #b9a668fd;
   }
 }
