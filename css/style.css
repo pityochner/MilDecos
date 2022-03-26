@@ -21,6 +21,8 @@ header {
   list-style-type: none;
   color: #f5e5b1fd;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .botonesInicio li {
   position: relative;
@@ -30,11 +32,11 @@ header {
   text-decoration: none;
   color: #f5e5b1fd;
   display: block;
-  padding: 10px 70px;
+  padding: 0.5rem 10rem;
 }
 .botonesInicio li a:hover {
-  background-color: #ecd482fd;
-  color: #b9a668fd;
+  color: #ecd482fd;
+  padding: 0.5rem 10rem;
 }
 /* body */
 body {
@@ -271,6 +273,17 @@ footer {
     background-color: #ecd482fd;
     color: #b9a668fd;
   }
+  .p {
+    width: auto;
+    height: auto;
+    border: none;
+    margin: auto;
+  }
+  .p2 {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 769px) {
   .botonesInicio {
@@ -296,6 +309,17 @@ footer {
   .botonesInicio li a:hover {
     background-color: #ecd482fd;
     color: #b9a668fd;
+  }
+  .p {
+    width: 720px;
+    height: auto;
+    border: none;
+    margin: auto;
+  }
+  .p2 {
+    width: auto;
+    height: auto;
+    margin: auto;
   }
 }
 @media screen and (max-width: 426px) {
@@ -348,14 +372,14 @@ footer {
     justify-items: center;
   }
   .p {
-    width: 90%;
-    height: 15rem;
+    width: auto;
+    height: auto;
     border: none;
     margin: auto;
   }
   .p2 {
-    width: 90%;
-    height: 22rem;
+    width: auto;
+    height: auto;
     margin: auto;
   }
   .imfoTwo {
@@ -465,6 +489,17 @@ footer {
     background-color: #ecd482fd;
     color: #b9a668fd;
   }
+  .p {
+    width: 340px;
+    height: auto;
+    border: none;
+    margin: auto;
+  }
+  .p2 {
+    width: 340px;
+    height: auto;
+    margin: auto;
+  }
 }
 @media screen and (max-width: 321px) {
   .botonesInicio {
@@ -490,5 +525,21 @@ footer {
   .botonesInicio li a:hover {
     background-color: #ecd482fd;
     color: #b9a668fd;
+  }
+  .p {
+    width: 300px;
+    height: auto;
+    border: none;
+    margin: auto;
+  }
+  .p2 {
+    width: 300px;
+    height: auto;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .botonesInicio ul li {
+    margin-left: 10rem;
   }
 }
