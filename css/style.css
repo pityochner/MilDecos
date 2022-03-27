@@ -264,7 +264,6 @@ footer {
   .botonesInicio li {
     position: relative;
     display: inline-block;
-    font-size: 1rem;
   }
   .botonesInicio li a {
     text-decoration: none;
@@ -301,7 +300,6 @@ footer {
   .botonesInicio li {
     position: relative;
     display: inline-block;
-    font-size: 1rem;
   }
   .botonesInicio li a {
     text-decoration: none;
@@ -352,7 +350,6 @@ footer {
   .botonesInicio li {
     position: relative;
     display: inline-block;
-    font-size: 0.7rem;
   }
   .botonesInicio li a {
     text-decoration: none;
@@ -480,7 +477,6 @@ footer {
   .botonesInicio li {
     position: relative;
     display: inline-block;
-    font-size: 0.6rem;
   }
   .botonesInicio li a {
     text-decoration: none;
@@ -517,7 +513,6 @@ footer {
   .botonesInicio li {
     position: relative;
     display: inline-block;
-    font-size: 0.5rem;
   }
   .botonesInicio li a {
     text-decoration: none;
