@@ -1,0 +1,341 @@
+@media screen and (max-width: 1025px) {
+    .botonesInicio {
+      width: 100%;
+      font-style: oblique;
+      background-color: #b9a668fd;
+      list-style-type: none;
+      color: #f5e5b1fd;
+      text-align: center;
+      border: none;
+    }
+    .botonesInicio li {
+      position: relative;
+      display: inline-block;
+    }
+    .botonesInicio li a {
+      text-decoration: none;
+      color: #f5e5b1fd;
+      display: block;
+      padding: 10px 50px;
+    }
+    .botonesInicio li a:hover {
+      background-color: #ecd482fd;
+      color: #b9a668fd;
+    }
+    .p {
+      width: auto;
+      height: auto;
+      border: none;
+      margin: auto;
+    }
+    .p2 {
+      width: auto;
+      height: auto;
+      margin: auto;
+    }
+  }
+  @media screen and (max-width: 769px) {
+    .botonesInicio {
+      width: 100%;
+      font-style: oblique;
+      background-color: #b9a668fd;
+      list-style-type: none;
+      color: #f5e5b1fd;
+      text-align: center;
+      border: none;
+    }
+    .botonesInicio li {
+      position: relative;
+      display: inline-block;
+    }
+    .botonesInicio li a {
+      text-decoration: none;
+      color: #f5e5b1fd;
+      display: block;
+      padding: 10px 30px;
+    }
+    .botonesInicio li a:hover {
+      background-color: #ecd482fd;
+      color: #b9a668fd;
+    }
+    .p {
+      width: 720px;
+      height: auto;
+      border: none;
+      margin: auto;
+    }
+    .p2 {
+      width: auto;
+      height: auto;
+      margin: auto;
+    }
+    footer {
+      width: 100%;
+      height: 4rem;
+    }
+    .imageFooter {
+      margin-top: 0.9rem;
+      margin-right: 1.8rem;
+    }
+    .footerLogo {
+      width: 3rem;
+    }
+    .sociales {
+      display: flex;
+      flex-direction: column;
+      width: 60rem;
+      margin-top: 0.5rem;
+      margin-right: 95%;
+    }
+    .tarjeta {
+      width: 15rem;
+      margin-top: 0.9rem;
+      margin-left: 38rem;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    header {
+      position: sticky;
+      top: 0;
+      background-color: #f5e5b1fd;
+    }
+    .imglogo {
+      width: 4.5rem;
+    }
+    .imgportada {
+      width: 21rem;
+    }
+    body {
+      width: 100%;
+    }
+    .botonesInicio {
+      width: 100%;
+      font-style: oblique;
+      background-color: #b9a668fd;
+      list-style-type: none;
+      color: #f5e5b1fd;
+      text-align: center;
+      border: none;
+    }
+    .botonesInicio li {
+      position: relative;
+      display: inline-block;
+    }
+    .botonesInicio li a {
+      text-decoration: none;
+      color: #f5e5b1fd;
+      display: block;
+      padding: 10px 10px;
+    }
+    .botonesInicio li a:hover {
+      background-color: #ecd482fd;
+      color: #b9a668fd;
+    }
+    .index {
+      margin-right: 2.4rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: 16rem 1fr 22rem;
+      grid-template-areas:
+        "infoOne"
+        "infoTwo"
+        "infoThree";
+      justify-items: center;
+    }
+    .p {
+      width: auto;
+      height: auto;
+      border: none;
+      margin: auto;
+    }
+    .p2 {
+      width: auto;
+      height: auto;
+      margin: auto;
+    }
+    .imfoTwo {
+      width: 90%;
+      margin: auto;
+    }
+    .image {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+        "img1 img2"
+        "img3 img3";
+    }
+    .img1 {
+      grid-area: img1;
+    }
+    .img2 {
+      grid-area: img2;
+    }
+    .img3 {
+      grid-area: img3;
+    }
+    .promocionesDos {
+      display: flex;
+      flex-direction: column;
+    }
+    .promocionesTres {
+      width: 26.5rem;
+      height: 10rem;
+      margin-right: 7.5rem;
+    }
+    .productos {
+      width: 100%;
+    }
+    .figurexd {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 20rem;
+      grid-template-rows: repeat(3 1fr);
+      grid-template-areas:
+        "produOne"
+        "produTwo"
+        "produThree";
+    }
+    .prodOne {
+      grid-area: produOne;
+    }
+    .prodTwo {
+      grid-area: produOne;
+    }
+    .prouThree {
+      grid-area: produOne;
+    }
+    footer {
+      width: 100%;
+      height: 4rem;
+    }
+    .imageFooter {
+      margin-top: 0.9rem;
+      margin-right: 1.8rem;
+    }
+    .footerLogo {
+      width: 3rem;
+    }
+    .sociales {
+      display: flex;
+      flex-direction: column;
+      width: 40rem;
+      margin-top: 0.5rem;
+      margin-right: 95%;
+    }
+    .tarjeta {
+      width: 15rem;
+      margin-top: 0.9rem;
+      margin-left: 20rem;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    .imglogo {
+      width: 4.5rem;
+    }
+    .imgportada {
+      width: 18rem;
+    }
+    .botonesInicio {
+      width: 100%;
+      font-style: oblique;
+      background-color: #b9a668fd;
+      list-style-type: none;
+      color: #f5e5b1fd;
+      text-align: center;
+      border: none;
+    }
+    .botonesInicio li {
+      position: relative;
+      display: inline-block;
+    }
+    .botonesInicio li a {
+      text-decoration: none;
+      color: #f5e5b1fd;
+      display: block;
+      padding: 0.5rem;
+    }
+    .botonesInicio li a:hover {
+      background-color: #ecd482fd;
+      color: #b9a668fd;
+    }
+    footer {
+      width: 100%;
+      height: 4rem;
+    }
+    .imageFooter {
+      margin-top: 0.9rem;
+      margin-right: 1.8rem;
+    }
+    .footerLogo {
+      width: 3rem;
+    }
+    .sociales {
+      display: flex;
+      flex-direction: column;
+      width: 40rem;
+      margin-top: 0.5rem;
+      margin-right: 95%;
+    }
+    .tarjeta {
+      width: 10rem;
+      margin-top: 0.9rem;
+      margin-left: 20rem;
+    }
+  }
+  @media screen and (max-width: 321px) {
+    .imglogo {
+      width: 3.5rem;
+    }
+    .imgportada {
+      width: 16rem;
+    }
+    .botonesInicio {
+      width: 100%;
+      font-style: oblique;
+      background-color: #b9a668fd;
+      list-style-type: none;
+      color: #f5e5b1fd;
+      text-align: center;
+      border: none;
+    }
+    .botonesInicio li {
+      position: relative;
+      display: inline-block;
+    }
+    .botonesInicio li a {
+      text-decoration: none;
+      color: #f5e5b1fd;
+      display: block;
+      padding: 0.4rem;
+    }
+    .botonesInicio li a:hover {
+      background-color: #ecd482fd;
+      color: #b9a668fd;
+    }
+    .p {
+      width: 300px;
+      height: auto;
+      border: none;
+      margin: auto;
+    }
+    .p2 {
+      width: 300px;
+      height: auto;
+      margin: auto;
+    }
+    .footerLogo {
+      width: 3rem;
+    }
+    .tarjeta {
+      margin-right: 4rem;
+      width: 8rem;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .botonesInicio ul li {
+      margin-left: 10rem;
+    }
+    .dropdown-item {
+      margin: 0;
+    }
+  }

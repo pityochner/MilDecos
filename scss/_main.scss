@@ -1,0 +1,176 @@
+body {
+    background-color: #f5e5b1fd;
+    color: black;
+    font-style: italic;
+    overflow-x: hidden;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  main {
+    width: 100%;
+    height: 100%;
+    color: black;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin-bottom: 2.2%;
+  }
+  .index {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 25rem 1rem 1fr 1fr;
+    grid-template-rows: repeat(4 1fr);
+    grid-template-areas:
+      "infoOne infoTwo infoTwo infoTwo"
+      "infoOne infoTwo infoTwo infoTwo"
+      "infoOne infoThree infoThree infoThree"
+      "infoOne infoThree infoThree infoThree";
+    justify-items: center;
+    z-index: -1;
+  }
+  .infoOne {
+    grid-area: infoOne;
+  }
+  .infoTwo {
+    grid-area: infoTwo;
+  }
+  .infoThree {
+    grid-area: infoThree;
+  }
+  
+  .promo {
+    color: black;
+    text-align: center;
+  }
+  .productos {
+    margin-bottom: 9.58rem;
+  }
+  .titleprodu {
+    margin-top: 1rem;
+  }
+  .promociones {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-left: 7.5rem;
+    justify-content: center;
+  }
+  .promocionesDos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .promocionesTres {
+    width: 30rem;
+    height: 17rem;
+    padding-top: 1%;
+    padding-bottom: 17rem;
+  }
+  .promocionesTres:hover {
+    background-color: #f1de9ffd;
+  }
+  .imagenes {
+    width: 25rem;
+    height: 15rem;
+  }
+  .p {
+    color: black;
+    text-align: center;
+    width: 12.5rem;
+    height: auto;
+    overflow: auto;
+    border: 3px rgba(185, 166, 104, 0.993) solid;
+    border-radius: 1.2rem;
+  }
+  .p2 {
+    color: black;
+    text-align: center;
+    width: 50rem;
+    height: auto;
+    overflow: auto;
+    margin-top: 2%;
+  }
+  .contenido {
+    display: flex;
+    width: 620px;
+    height: auto;
+    margin-left: 30%;
+    justify-content: space-evenly;
+  }
+  .image {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+  }
+  .image a {
+    text-decoration: none;
+  }
+  .figurexd {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 70rem;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sectionxd {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 1%;
+    padding-top: 1rem;
+  }
+  .sectionxd:hover {
+    background-color: #f1de9ffd;
+  }
+  .formulario {
+    margin: 20px auto;
+    width: 25rem;
+    padding: 0.6rem;
+    border: 3px #b9a668fd solid;
+    border-radius: 1.5rem;
+  }
+  .formulario label {
+    font-size: 18px;
+  }
+  .maps {
+    margin: 20px auto;
+    width: 25rem;
+    height: 19rem;
+  }
+  .text {
+    resize: none;
+    text-align: left;
+  }
+  .nosotros {
+    width: 95%;
+    align-items: center;
+    margin-left: 2.4%;
+  }
+  .nosotros h1 {
+    font-size: 2rem;
+  }
+  .card {
+    border-radius: 1.5rem;
+    overflow: auto;
+    background-color: #b9a668fd;
+    padding-top: 0.7rem;
+  }
+  .card img {
+    border-radius: 1.5rem;
+  }
+  .card-body {
+    background-color: #b9a668fd;
+  }
+  .card-text {
+    color: #f5e5b1fd;
+  }
+  .btind {
+    width: 100%;
+  }

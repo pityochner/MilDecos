@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    background-color: #f5e5b1fd;
+    z-index: 1;
+  }
+  .logoportada {
+    margin-left: 20px auto;
+  }
+  /* nav */
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .botonesInicio li {
+    position: relative;
+    display: inline-block;
+  }
+  .botonesInicio li a {
+    text-decoration: none;
+    color: #f5e5b1fd;
+    display: block;
+    padding: 0.5rem 10rem;
+  }
+  .botonesInicio li a:hover {
+    color: #ecd482fd;
+    padding: 0.5rem 10rem;
+  }
+  .dropdown-item {
+    margin: 0;
+  }
