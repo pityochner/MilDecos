@@ -21,19 +21,14 @@ header {
     text-align: center;
     margin: 0;
     padding: 0; }
-  header .botonesInicio li {
-    position: relative;
-    display: inline-block; }
-  header .botonesInicio li a {
-    text-decoration: none;
-    color: #f5e5b1fd;
-    display: block;
-    padding: 0.5rem 10rem; }
-  header .botonesInicio li a:hover {
-    color: #ecd482fd;
-    padding: 0.5rem 10rem; }
-  header .dropdown-item {
-    margin: 0; }
+    header .botonesInicio li {
+      position: relative;
+      display: inline-block; }
+      header .botonesInicio li a {
+        text-decoration: none;
+        color: #f5e5b1fd;
+        display: block;
+        padding: 0.5rem 10rem; }
 
 body {
   background-color: #f5e5b1fd;
