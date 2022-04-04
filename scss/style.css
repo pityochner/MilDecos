@@ -95,6 +95,10 @@ main {
   grid-area: infoThree;
 }
 
+.promos {
+  margin-top: 2rem;
+}
+
 .promo {
   color: black;
   text-align: center;
