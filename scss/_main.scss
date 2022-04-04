@@ -20,15 +20,6 @@ body {
     width: 90%;
     height: auto;
     margin: 20px auto;
-    display: grid;
-    grid-template-columns: 25rem 1rem 1fr 1fr;
-    grid-template-rows: repeat(4 1fr);
-    grid-template-areas:
-      "infoOne infoTwo infoTwo infoTwo"
-      "infoOne infoTwo infoTwo infoTwo"
-      "infoOne infoThree infoThree infoThree"
-      "infoOne infoThree infoThree infoThree";
-    justify-items: center;
     z-index: -1;
   }
   .infoOne {
@@ -149,9 +140,13 @@ body {
     text-align: left;
   }
   .nosotros {
-    width: 95%;
+    width: 70%;
+    height: auto;
     align-items: center;
     margin-left: 2.4%;
+    border: 3px #b9a668fd solid;
+    border-radius: 1.2rem;
+    margin: 20px auto;
   }
   .nosotros h1 {
     font-size: 2rem;

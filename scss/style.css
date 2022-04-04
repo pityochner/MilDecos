@@ -12,14 +12,14 @@ header {
   top: 0;
   background-color: #f5e5b1fd;
   z-index: 1;
+  /* nav */
 }
 
-.logoportada {
+header .logoportada {
   margin-left: 20px auto;
 }
 
-/* nav */
-.botonesInicio {
+header .botonesInicio {
   width: 100%;
   font-style: oblique;
   background-color: #b9a668fd;
@@ -30,24 +30,24 @@ header {
   padding: 0;
 }
 
-.botonesInicio li {
+header .botonesInicio li {
   position: relative;
   display: inline-block;
 }
 
-.botonesInicio li a {
+header .botonesInicio li a {
   text-decoration: none;
   color: #f5e5b1fd;
   display: block;
   padding: 0.5rem 10rem;
 }
 
-.botonesInicio li a:hover {
+header .botonesInicio li a:hover {
   color: #ecd482fd;
   padding: 0.5rem 10rem;
 }
 
-.dropdown-item {
+header .dropdown-item {
   margin: 0;
 }
 
@@ -80,37 +80,18 @@ main {
   width: 90%;
   height: auto;
   margin: 20px auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 25rem 1rem 1fr 1fr;
-      grid-template-columns: 25rem 1rem 1fr 1fr;
-  -ms-grid-rows: (1fr)[4];
-      grid-template-rows: repeat(4 1fr);
-      grid-template-areas: "infoOne infoTwo infoTwo infoTwo" "infoOne infoTwo infoTwo infoTwo" "infoOne infoThree infoThree infoThree" "infoOne infoThree infoThree infoThree";
-  justify-items: center;
   z-index: -1;
 }
 
 .infoOne {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 4;
-  -ms-grid-column: 1;
   grid-area: infoOne;
 }
 
 .infoTwo {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
   grid-area: infoTwo;
 }
 
 .infoThree {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
   grid-area: infoThree;
 }
 
@@ -269,11 +250,15 @@ main {
 }
 
 .nosotros {
-  width: 95%;
+  width: 70%;
+  height: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-left: 2.4%;
+  border: 3px #b9a668fd solid;
+  border-radius: 1.2rem;
+  margin: 20px auto;
 }
 
 .nosotros h1 {
@@ -318,18 +303,18 @@ footer {
   margin-top: auto;
 }
 
-.imageFooter {
+footer .imageFooter {
   position: absolute;
 }
 
-.tarjeta {
+footer .tarjeta {
   margin-left: 80%;
   position: absolute;
   width: 20rem;
   margin-top: 1.4rem;
 }
 
-.sociales {
+footer .sociales {
   color: rgba(245, 229, 177, 0.993);
   text-decoration: none;
   text-align: left;
@@ -339,7 +324,7 @@ footer {
   margin-left: 2%;
 }
 
-.hola {
+footer .hola {
   color: rgba(245, 229, 177, 0.993);
   text-decoration: none;
   display: inline;

@@ -1,15 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    box-sizing: border-box;
-  }
-  header {
+header {
     position: sticky;
     top: 0;
     background-color: #f5e5b1fd;
     z-index: 1;
-  }
   .logoportada {
     margin-left: 20px auto;
   }
@@ -41,3 +34,4 @@
   .dropdown-item {
     margin: 0;
   }
+}
