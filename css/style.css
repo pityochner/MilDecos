@@ -165,7 +165,7 @@ main {
 
 .maps {
   margin: 20px auto;
-  width: 25rem;
+  width: rem;
   height: 20rem; }
 
 .text {
@@ -173,7 +173,7 @@ main {
   text-align: left; }
 
 .nosotros {
-  width: 70%;
+  width: 85%;
   height: auto;
   align-items: center;
   margin-left: 2.4%;

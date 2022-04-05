@@ -236,7 +236,7 @@ main {
 
 .maps {
   margin: 20px auto;
-  width: 25rem;
+  width: rem;
   height: 20rem;
 }
 
@@ -246,7 +246,7 @@ main {
 }
 
 .nosotros {
-  width: 70%;
+  width: 85%;
   height: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
