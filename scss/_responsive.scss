@@ -1,306 +1,355 @@
 @media screen and (max-width: 1025px) {
-    .botonesInicio {
-      width: 100%;
-      font-style: oblique;
-      background-color: #b9a668fd;
-      list-style-type: none;
-      color: #f5e5b1fd;
-      text-align: center;
-      border: none;
-    }
-    .botonesInicio div ul li a {
-      position: relative;
-      display: inline-block;
-      margin-left: 6rem;
-    }
-    .p {
-      width: 90%;
-      height: auto;
-      border: none;
-      margin: auto;
-    }
-    .p2 {
-      width: 90%;
-      height: auto;
-      border: none;
-      margin: auto;
-    }
-    .texImg{
-      width: 90%;
-      height: auto;
-      margin: auto;
-      border: none;
-    }
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    border: none;
   }
-  @media screen and (min-width: 1025px) {
-    .botonesInicio ul li {
-      margin-left: 10rem;
-    }
-    .dropdown-item {
-      margin: 0;
-    }
+  .botonesInicio div ul li a {
+    position: relative;
+    display: inline-block;
+    margin-left: 6rem;
   }
-  @media screen and (max-width: 769px) {
-    .botonesInicio {
-      width: 100%;
-      font-style: oblique;
-      background-color: #b9a668fd;
-      list-style-type: none;
-      color: #f5e5b1fd;
-      text-align: center;
-      border: none;
-    }
-    .botonesInicio div ul li a{
-      margin-left: auto;
-    }
-    .botonesInicio div ul li a:hover {
-      transform: scale(1.3);
-    }
-    .promocionesTres{
-      margin-right: 7rem;
-    }
-    footer {
-      width: 100%;
-      height: 4rem;
-    }
-    .imageFooter {
-      margin-top: 0.9rem;
-      margin-right: 1.8rem;
-    }
-    .footerLogo {
-      width: 3rem;
-    }
-    .sociales {
-      display: flex;
-      flex-direction: column;
-      width: 60rem;
-      margin-top: 0.5rem;
-      margin-right: 95%;
-    }
-    .tarjeta {
-      width: 15rem;
-      margin-top: 0.9rem;
-      margin-left: 38rem;
-    }
+  .p {
+    width: 90%;
+    height: auto;
+    border: none;
+    margin: auto;
   }
-  @media screen and (max-width: 426px) {
-    header {
-      position: sticky;
-      top: 0;
-      background-color: #f5e5b1fd;
-    }
-    .imglogo {
-      width: 4.5rem;
-    }
-    .imgportada {
-      width: 21rem;
-    }
-    body {
-      width: 100%;
-    }
-    .botonesInicio {
-      width: 100%;
-      font-style: oblique;
-      background-color: #b9a668fd;
-      list-style-type: none;
-      color: #f5e5b1fd;
-      text-align: center;
-      border: none;
-    }
-    .botonesInicio div ul li a{
-      margin-left: auto;
-    }
-    .botonesInicio div ul li a:hover {
-      transform: scale(1.3);
-    }
-    .imfoTwo {
-      width: 90%;
-      margin: auto;
-    }
-    .image {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas:
-        "img1 img2"
-        "img3 img3";
-    }
-    .img1 {
-      grid-area: img1;
-    }
-    .img2 {
-      grid-area: img2;
-    }
-    .img3 {
-      grid-area: img3;
-    }
-    .promocionesDos {
-      display: flex;
-      flex-direction: column;
-    }
-    .promocionesTres {
-      width: 22rem;
-      height: 1rem;
-      padding-top: 0.5rem;
-      padding-bottom: 13rem;
-      margin-right: 7rem;
-    }
-    .imagenes{
-      width: 16rem;
-      height: 10rem;   
-    }
-    .productos {
-      width: 100%;
-    }
-    .figurexd {
-      width: 100%;
-      display: grid;
-      grid-template-columns: 20rem;
-      grid-template-rows: repeat(3 1fr);
-      grid-template-areas:
-        "produOne"
-        "produTwo"
-        "produThree";
-    }
-    .prodOne {
-      grid-area: produOne;
-    }
-    .prodTwo {
-      grid-area: produOne;
-    }
-    .prouThree {
-      grid-area: produOne;
-    }
-    .maps{
-      width: 19rem;
-      height: 19rem;
-    }
-    footer {
-      width: 100%;
-      height: 4rem;
-    }
-    .imageFooter {
-      margin-top: 0.9rem;
-      margin-right: 1.8rem;
-    }
-    .footerLogo {
-      width: 3rem;
-    }
-    .sociales {
-      display: flex;
-      flex-direction: column;
-      width: 40rem;
-      margin-top: 0.5rem;
-      margin-right: 95%;
-    }
-    .tarjeta {
-      width: 15rem;
-      margin-top: 0.9rem;
-      margin-left: 20rem;
-    }
+  .p2 {
+    width: 90%;
+    height: auto;
+    border: none;
+    margin: auto;
   }
-  @media screen and (max-width: 376px) {
-    .imglogo {
-      width: 4.5rem;
-    }
-    .imgportada {
-      width: 18rem;
-    }
-    .botonesInicio {
-      width: 100%;
-      font-style: oblique;
-      background-color: #b9a668fd;
-      list-style-type: none;
-      color: #f5e5b1fd;
-      text-align: center;
-      border: none;
-    }
-    .botonesInicio div ul li a{
-      margin-left: auto;
-    }
-    .botonesInicio div ul li a:hover {
-      transform: scale(1.3);
-    }
-    .promocionesTres {
-      width: 20rem;
-      height: 1rem;
-      padding-top: 0.5rem;
-      padding-bottom: 13rem;
-    }
-    .imagenes{
-      width: 15rem;
-      height: 10rem;   
-    }
-    .maps{
-      width: 17.5rem;
-      height: 17.5rem;
-    }
-    footer {
-      width: 100%;
-      height: 4rem;
-    }
-    .imageFooter {
-      margin-top: 0.9rem;
-      margin-right: 1.8rem;
-    }
-    .footerLogo {
-      width: 3rem;
-    }
-    .sociales {
-      display: flex;
-      flex-direction: column;
-      width: 40rem;
-      margin-top: 0.5rem;
-      margin-right: 95%;
-    }
-    .tarjeta {
-      width: 10rem;
-      margin-top: 0.9rem;
-      margin-left: 20rem;
-    }
+  .texImg {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: none;
   }
-  @media screen and (max-width: 321px) {
-    .imglogo {
-      width: 3.5rem;
-    }
-    .imgportada {
-      width: 16rem;
-    }
-    .botonesInicio {
-      width: 100%;
-      font-style: oblique;
-      background-color: #b9a668fd;
-      list-style-type: none;
-      color: #f5e5b1fd;
-      text-align: center;
-      border: none;
-    }
-    .botonesInicio div ul li a{
-      margin-left: auto;
-    }
-    .botonesInicio div ul li a:hover {
-      transform: scale(1.3);
-    }
-    .promocionesTres {
-      width: 18rem;
-      height: 1rem;
-      padding-top: 0.5rem;
-      padding-bottom: 13rem;
-    }
-    .imagenes{
-      width: 15rem;
-      height: 10rem;
-    }
+}
 
-    .maps{
-      width: 15rem;
-      height: 15rem;
-    }
-    .footerLogo {
-      width: 3rem;
-    }
-    .tarjeta {
-      margin-right: 4rem;
-      width: 8rem;
+@media screen and (min-width: 1025px) {
+  .botonesInicio ul li {
+    margin-left: 10rem;
+  }
+  .dropdown-item {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  .sociales {
+    color: rgba(245, 229, 177, 0.993);
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 1.2rem;
+  }
+  .pruUno {
+    margin-top: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    border: none;
+  }
+  .botonesInicio div ul li a {
+    margin-left: auto;
+  }
+  .botonesInicio div ul li a:hover {
+    transform: scale(1.3);
+  }
+  .promocionesTres {
+    margin-right: 7rem;
+  }
+  .nosotros video{
+    width: 30rem;
+    border: 0.2rem #b9a668fd solid;
+    border-radius: 1.2rem;
+  }
+  footer {
+    width: 100%;
+    height: 4rem;
+  }
+  .imageFooter {
+    margin-right: 1.8rem;
+  }
+  .footerLogo {
+    width: 5rem;
+  }
+  .sociales {
+    display: flex;
+    flex-direction: column;
+    margin-right: 95%;
+    width: 2rem;
+    margin-top: 0.3rem;
+    a {
+      img {
+        width: 1.8rem;
+      }
     }
   }
+  .pruUno {
+    width: 6rem;
+    height: 3.5rem;
+    margin-top: 0.5rem;
+    img {
+      width: 4.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  header {
+    position: sticky;
+    top: 0;
+    background-color: #f5e5b1fd;
+  }
+  .imglogo {
+    width: 4.5rem;
+  }
+  .imgportada {
+    width: 21rem;
+  }
+  body {
+    width: 100%;
+  }
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    border: none;
+  }
+  .botonesInicio div ul li a {
+    margin-left: auto;
+  }
+  .botonesInicio div ul li a:hover {
+    transform: scale(1.3);
+  }
+  .imfoTwo {
+    width: 90%;
+    margin: auto;
+  }
+  .image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "img1 img2"
+      "img3 img3";
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .promocionesDos {
+    display: flex;
+    flex-direction: column;
+  }
+  .promocionesTres {
+    width: 22rem;
+    height: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 13rem;
+    margin-right: 7rem;
+  }
+  .imagenes {
+    width: 16rem;
+    height: 10rem;
+  }
+  .productos {
+    width: 100%;
+  }
+  .figurexd {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20rem;
+    grid-template-rows: repeat(3 1fr);
+    grid-template-areas:
+      "produOne"
+      "produTwo"
+      "produThree";
+  }
+  .prodOne {
+    grid-area: produOne;
+  }
+  .prodTwo {
+    grid-area: produOne;
+  }
+  .prouThree {
+    grid-area: produOne;
+  }
+  .nosotros video{
+    width: 19rem;
+    border: 0.2rem #b9a668fd solid;
+    border-radius: 1.2rem;
+  }
+  .maps {
+    width: 19rem;
+    height: 19rem;
+  }
+  footer {
+    width: 100%;
+    height: 4rem;
+  }
+  .imageFooter {
+    margin-top: 0.2rem;
+    margin-right: 1.8rem;
+  }
+  .footerLogo {
+    width: 4.5rem;
+    margin-top: 0.2rem;
+  }
+  .sociales {
+    display: flex;
+    flex-direction: column;
+    width: 2rem;
+    margin-top: 0.5rem;
+    .hola {
+      img {
+      width: 1.5rem;
+      }
+    }
+  }
+  .pruUno {
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    img {
+    width: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .imglogo {
+    width: 4.5rem;
+  }
+  .imgportada {
+    width: 18rem;
+  }
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    border: none;
+  }
+  .botonesInicio div ul li a {
+    margin-left: auto;
+  }
+  .botonesInicio div ul li a:hover {
+    transform: scale(1.3);
+  }
+  .promocionesTres {
+    width: 20rem;
+    height: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 13rem;
+  }
+  .imagenes {
+    width: 15rem;
+    height: 10rem;
+  }
+  .nosotros video{
+    width: 16.5rem;
+    border: 0.2rem #b9a668fd solid;
+    border-radius: 1.2rem;
+  }
+  .maps {
+    width: 17.5rem;
+    height: 17.5rem;
+  }
+  footer {
+    width: 100%;
+    height: 4rem;
+  }
+  .imageFooter {
+    margin-left: 20px auto;
+  }
+  .footerLogo {
+    width: 4rem;
+  }
+  .sociales {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+}
+@media screen and (max-width: 321px) {
+  .imglogo {
+    width: 3.5rem;
+  }
+  .imgportada {
+    width: 16rem;
+  }
+  .botonesInicio {
+    width: 100%;
+    font-style: oblique;
+    background-color: #b9a668fd;
+    list-style-type: none;
+    color: #f5e5b1fd;
+    text-align: center;
+    border: none;
+  }
+  .botonesInicio div ul li a {
+    margin-left: auto;
+  }
+  .botonesInicio div ul li a:hover {
+    transform: scale(1.3);
+  }
+  .promocionesTres {
+    width: 18rem;
+    height: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 13rem;
+  }
+  .imagenes {
+    width: 15rem;
+    height: 10rem;
+  }
+  .nosotros video{
+    width: 15rem;
+    border: 0.2rem #b9a668fd solid;
+    border-radius: 1.2rem;
+  }
+  .maps {
+    width: 15rem;
+    height: 15rem;
+  }
+  .footerLogo {
+    width: 4rem;
+  }
+  
+  .pruUno {
+    margin-bottom: 2rem;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    img {
+    width: 3rem;
+    }
+  }
+}

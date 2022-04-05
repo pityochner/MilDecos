@@ -160,18 +160,34 @@ body {
     margin: 20px auto;
   }
   .nosotros h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    color: #3a3a3a;
+  }
+  .nosotros h4 {
+    font-size: 1.8rem;
+    color: #3a3a3a;
   }
   .nosotros p{
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #3a3a3a;
+  }
+  .nosotros video{
+    width: 40rem;
+    border: 0.2rem #b9a668fd solid;
+    border-radius: 1.2rem;
   }
   .contacto{
     width: 85%;
     border: 3px #b9a668fd solid;
     border-radius: 1.2rem;
     margin: 20px auto;
+    .container{
+      width: 90%;
+    }
   }
   .card {
     border-radius: 1.5rem;
