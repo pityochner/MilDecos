@@ -261,6 +261,12 @@ main {
   font-size: 2rem;
 }
 
+.nosotros p {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
 .contacto {
   width: 85%;
   border: 3px #b9a668fd solid;
