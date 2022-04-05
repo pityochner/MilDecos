@@ -14,15 +14,22 @@
       margin-left: 6rem;
     }
     .p {
-      width: auto;
+      width: 90%;
       height: auto;
       border: none;
       margin: auto;
     }
     .p2 {
-      width: auto;
+      width: 90%;
+      height: auto;
+      border: none;
+      margin: auto;
+    }
+    .texImg{
+      width: 90%;
       height: auto;
       margin: auto;
+      border: none;
     }
   }
   @media screen and (min-width: 1025px) {
@@ -49,16 +56,8 @@
     .botonesInicio div ul li a:hover {
       transform: scale(1.3);
     }
-    .p {
-      width: 720px;
-      height: auto;
-      border: none;
-      margin: auto;
-    }
-    .p2 {
-      width: auto;
-      height: auto;
-      margin: auto;
+    .promocionesTres{
+      margin-right: 7rem;
     }
     footer {
       width: 100%;
@@ -114,17 +113,6 @@
     .botonesInicio div ul li a:hover {
       transform: scale(1.3);
     }
-    .p {
-      width: auto;
-      height: auto;
-      border: none;
-      margin: auto;
-    }
-    .p2 {
-      width: auto;
-      height: auto;
-      margin: auto;
-    }
     .imfoTwo {
       width: 90%;
       margin: auto;
@@ -151,9 +139,15 @@
       flex-direction: column;
     }
     .promocionesTres {
-      width: 26.5rem;
-      height: 10rem;
-      margin-right: 7.5rem;
+      width: 22rem;
+      height: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 13rem;
+      margin-right: 7rem;
+    }
+    .imagenes{
+      width: 16rem;
+      height: 10rem;   
     }
     .productos {
       width: 100%;
@@ -227,6 +221,16 @@
     .botonesInicio div ul li a:hover {
       transform: scale(1.3);
     }
+    .promocionesTres {
+      width: 20rem;
+      height: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 13rem;
+    }
+    .imagenes{
+      width: 15rem;
+      height: 10rem;   
+    }
     .maps{
       width: 17.5rem;
       height: 17.5rem;
@@ -277,17 +281,17 @@
     .botonesInicio div ul li a:hover {
       transform: scale(1.3);
     }
-    .p {
-      width: 300px;
-      height: auto;
-      border: none;
-      margin: auto;
+    .promocionesTres {
+      width: 18rem;
+      height: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 13rem;
     }
-    .p2 {
-      width: 300px;
-      height: auto;
-      margin: auto;
+    .imagenes{
+      width: 15rem;
+      height: 10rem;
     }
+
     .maps{
       width: 15rem;
       height: 15rem;

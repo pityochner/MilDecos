@@ -100,24 +100,36 @@ main {
 
 .imagenes {
   width: 25rem;
-  height: 15rem; }
+  height: 15rem;
+  border-radius: 3rem; }
 
 .p {
   color: black;
   text-align: center;
-  width: 12.5rem;
+  font-size: 1.2rem;
+  width: 20rem;
   height: auto;
   overflow: auto;
-  border: 3px rgba(185, 166, 104, 0.993) solid;
-  border-radius: 1.2rem; }
+  border: 0.2rem #b9a668fd solid;
+  border-radius: 1.2rem;
+  margin: auto; }
 
 .p2 {
   color: black;
   text-align: center;
-  width: 50rem;
+  width: 51rem;
   height: auto;
   overflow: auto;
-  margin-top: 2%; }
+  margin-top: 2%;
+  font-size: 1.3rem; }
+
+.texImg {
+  width: 54rem;
+  border: 0.2rem #b9a668fd solid;
+  border-radius: 1.2rem; }
+
+.iniImg {
+  border-radius: 1.2rem; }
 
 .contenido {
   display: flex;
@@ -268,14 +280,20 @@ footer {
     display: inline-block;
     margin-left: 6rem; }
   .p {
-    width: auto;
+    width: 90%;
     height: auto;
     border: none;
     margin: auto; }
   .p2 {
-    width: auto;
+    width: 90%;
     height: auto;
-    margin: auto; } }
+    border: none;
+    margin: auto; }
+  .texImg {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: none; } }
 
 @media screen and (min-width: 1025px) {
   .botonesInicio ul li {
@@ -296,15 +314,8 @@ footer {
     margin-left: auto; }
   .botonesInicio div ul li a:hover {
     transform: scale(1.3); }
-  .p {
-    width: 720px;
-    height: auto;
-    border: none;
-    margin: auto; }
-  .p2 {
-    width: auto;
-    height: auto;
-    margin: auto; }
+  .promocionesTres {
+    margin-right: 7rem; }
   footer {
     width: 100%;
     height: 4rem; }
@@ -347,15 +358,6 @@ footer {
     margin-left: auto; }
   .botonesInicio div ul li a:hover {
     transform: scale(1.3); }
-  .p {
-    width: auto;
-    height: auto;
-    border: none;
-    margin: auto; }
-  .p2 {
-    width: auto;
-    height: auto;
-    margin: auto; }
   .imfoTwo {
     width: 90%;
     margin: auto; }
@@ -374,9 +376,14 @@ footer {
     display: flex;
     flex-direction: column; }
   .promocionesTres {
-    width: 26.5rem;
-    height: 10rem;
-    margin-right: 7.5rem; }
+    width: 22rem;
+    height: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 13rem;
+    margin-right: 7rem; }
+  .imagenes {
+    width: 16rem;
+    height: 10rem; }
   .productos {
     width: 100%; }
   .figurexd {
@@ -430,6 +437,14 @@ footer {
     margin-left: auto; }
   .botonesInicio div ul li a:hover {
     transform: scale(1.3); }
+  .promocionesTres {
+    width: 20rem;
+    height: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 13rem; }
+  .imagenes {
+    width: 15rem;
+    height: 10rem; }
   .maps {
     width: 17.5rem;
     height: 17.5rem; }
@@ -469,15 +484,14 @@ footer {
     margin-left: auto; }
   .botonesInicio div ul li a:hover {
     transform: scale(1.3); }
-  .p {
-    width: 300px;
-    height: auto;
-    border: none;
-    margin: auto; }
-  .p2 {
-    width: 300px;
-    height: auto;
-    margin: auto; }
+  .promocionesTres {
+    width: 18rem;
+    height: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 13rem; }
+  .imagenes {
+    width: 15rem;
+    height: 10rem; }
   .maps {
     width: 15rem;
     height: 15rem; }

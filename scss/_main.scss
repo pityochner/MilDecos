@@ -67,23 +67,35 @@ body {
   .imagenes {
     width: 25rem;
     height: 15rem;
+    border-radius: 3rem;
   }
   .p {
     color: black;
     text-align: center;
-    width: 12.5rem;
+    font-size: 1.2rem;
+    width: 20rem;
     height: auto;
     overflow: auto;
-    border: 3px rgba(185, 166, 104, 0.993) solid;
+    border: 0.2rem #b9a668fd solid;
     border-radius: 1.2rem;
+    margin: auto;
   }
   .p2 {
     color: black;
     text-align: center;
-    width: 50rem;
+    width: 51rem;
     height: auto;
     overflow: auto;
     margin-top: 2%;
+    font-size: 1.3rem;
+  }
+  .texImg{
+    width: 54rem;
+    border: 0.2rem #b9a668fd solid;
+    border-radius: 1.2rem;
+  }
+  .iniImg{
+    border-radius: 1.2rem;
   }
   .contenido {
     display: flex;
