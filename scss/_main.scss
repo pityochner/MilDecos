@@ -41,9 +41,6 @@ body {
   .productos {
     margin-bottom: 9.58rem;
   }
-  .titleprodu {
-    margin-top: 1rem;
-  }
   .promociones {
     width: auto;
     height: auto;
@@ -135,7 +132,7 @@ body {
   .maps {
     margin: 20px auto;
     width: 25rem;
-    height: 19rem;
+    height: 20rem;
   }
   .text {
     resize: none;
@@ -153,11 +150,28 @@ body {
   .nosotros h1 {
     font-size: 2rem;
   }
+  .contacto{
+    width: 85%;
+    border: 3px #b9a668fd solid;
+    border-radius: 1.2rem;
+    margin: 20px auto;
+  }
   .card {
     border-radius: 1.5rem;
     overflow: auto;
     background-color: #b9a668fd;
     padding-top: 0.7rem;
+  }
+  .productos .card:hover{
+    transform: scale(1.1);
+  }
+  .productos h1{
+    font-size: 2.5rem;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 1.5rem;
+    background-color: #b9a668fd;
+    color: #f5e5b1fd;
   }
   .card img {
     border-radius: 1.5rem;

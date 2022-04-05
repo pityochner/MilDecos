@@ -29,6 +29,8 @@ header {
         color: #f5e5b1fd;
         display: block;
         padding: 0.5rem 10rem; }
+  header .botonesInicio div ul li a:hover {
+    transform: scale(1.3); }
 
 body {
   background-color: #f5e5b1fd;
@@ -72,9 +74,6 @@ main {
 
 .productos {
   margin-bottom: 9.58rem; }
-
-.titleprodu {
-  margin-top: 1rem; }
 
 .promociones {
   width: auto;
@@ -167,7 +166,7 @@ main {
 .maps {
   margin: 20px auto;
   width: 25rem;
-  height: 19rem; }
+  height: 20rem; }
 
 .text {
   resize: none;
@@ -185,11 +184,28 @@ main {
 .nosotros h1 {
   font-size: 2rem; }
 
+.contacto {
+  width: 85%;
+  border: 3px #b9a668fd solid;
+  border-radius: 1.2rem;
+  margin: 20px auto; }
+
 .card {
   border-radius: 1.5rem;
   overflow: auto;
   background-color: #b9a668fd;
   padding-top: 0.7rem; }
+
+.productos .card:hover {
+  transform: scale(1.1); }
+
+.productos h1 {
+  font-size: 2.5rem;
+  margin: 20px auto;
+  width: 90%;
+  border-radius: 1.5rem;
+  background-color: #b9a668fd;
+  color: #f5e5b1fd; }
 
 .card img {
   border-radius: 1.5rem; }
@@ -242,17 +258,10 @@ footer {
     color: #f5e5b1fd;
     text-align: center;
     border: none; }
-  .botonesInicio li {
+  .botonesInicio div ul li a {
     position: relative;
-    display: inline-block; }
-  .botonesInicio li a {
-    text-decoration: none;
-    color: #f5e5b1fd;
-    display: block;
-    padding: 10px 50px; }
-  .botonesInicio li a:hover {
-    background-color: #ecd482fd;
-    color: #b9a668fd; }
+    display: inline-block;
+    margin-left: 6rem; }
   .p {
     width: auto;
     height: auto;
@@ -263,6 +272,12 @@ footer {
     height: auto;
     margin: auto; } }
 
+@media screen and (min-width: 1025px) {
+  .botonesInicio ul li {
+    margin-left: 10rem; }
+  .dropdown-item {
+    margin: 0; } }
+
 @media screen and (max-width: 769px) {
   .botonesInicio {
     width: 100%;
@@ -272,17 +287,10 @@ footer {
     color: #f5e5b1fd;
     text-align: center;
     border: none; }
-  .botonesInicio li {
-    position: relative;
-    display: inline-block; }
-  .botonesInicio li a {
-    text-decoration: none;
-    color: #f5e5b1fd;
-    display: block;
-    padding: 10px 30px; }
-  .botonesInicio li a:hover {
-    background-color: #ecd482fd;
-    color: #b9a668fd; }
+  .botonesInicio div ul li a {
+    margin-left: auto; }
+  .botonesInicio div ul li a:hover {
+    transform: scale(1.3); }
   .p {
     width: 720px;
     height: auto;
@@ -330,23 +338,10 @@ footer {
     color: #f5e5b1fd;
     text-align: center;
     border: none; }
-  .botonesInicio li {
-    position: relative;
-    display: inline-block; }
-  .botonesInicio li a {
-    text-decoration: none;
-    color: #f5e5b1fd;
-    display: block;
-    padding: 10px 10px; }
-  .botonesInicio li a:hover {
-    background-color: #ecd482fd;
-    color: #b9a668fd; }
-  .index {
-    margin-right: 2.4rem;
-    grid-template-columns: 1fr;
-    grid-template-rows: 16rem 1fr 22rem;
-    grid-template-areas: "infoOne" "infoTwo" "infoThree";
-    justify-items: center; }
+  .botonesInicio div ul li a {
+    margin-left: auto; }
+  .botonesInicio div ul li a:hover {
+    transform: scale(1.3); }
   .p {
     width: auto;
     height: auto;
@@ -391,6 +386,9 @@ footer {
     grid-area: produOne; }
   .prouThree {
     grid-area: produOne; }
+  .maps {
+    width: 19rem;
+    height: 19rem; }
   footer {
     width: 100%;
     height: 4rem; }
@@ -423,17 +421,13 @@ footer {
     color: #f5e5b1fd;
     text-align: center;
     border: none; }
-  .botonesInicio li {
-    position: relative;
-    display: inline-block; }
-  .botonesInicio li a {
-    text-decoration: none;
-    color: #f5e5b1fd;
-    display: block;
-    padding: 0.5rem; }
-  .botonesInicio li a:hover {
-    background-color: #ecd482fd;
-    color: #b9a668fd; }
+  .botonesInicio div ul li a {
+    margin-left: auto; }
+  .botonesInicio div ul li a:hover {
+    transform: scale(1.3); }
+  .maps {
+    width: 17.5rem;
+    height: 17.5rem; }
   footer {
     width: 100%;
     height: 4rem; }
@@ -466,17 +460,10 @@ footer {
     color: #f5e5b1fd;
     text-align: center;
     border: none; }
-  .botonesInicio li {
-    position: relative;
-    display: inline-block; }
-  .botonesInicio li a {
-    text-decoration: none;
-    color: #f5e5b1fd;
-    display: block;
-    padding: 0.4rem; }
-  .botonesInicio li a:hover {
-    background-color: #ecd482fd;
-    color: #b9a668fd; }
+  .botonesInicio div ul li a {
+    margin-left: auto; }
+  .botonesInicio div ul li a:hover {
+    transform: scale(1.3); }
   .p {
     width: 300px;
     height: auto;
@@ -486,14 +473,11 @@ footer {
     width: 300px;
     height: auto;
     margin: auto; }
+  .maps {
+    width: 15rem;
+    height: 15rem; }
   .footerLogo {
     width: 3rem; }
   .tarjeta {
     margin-right: 4rem;
     width: 8rem; } }
-
-@media screen and (min-width: 992px) {
-  .botonesInicio ul li {
-    margin-left: 10rem; }
-  .dropdown-item {
-    margin: 0; } }
