@@ -1,10 +1,13 @@
+$colorone: #f5e5b1fd;
+$colortwo: #b9a668fd;
+
 footer {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     height: 5rem;
-    background-color: #b9a668fd;
-    color: #f5e5b1fd;
+    background-color: $colortwo;
+    color: $colorone;
     text-align: left;
     margin-top: auto;
   .imageFooter {
@@ -15,7 +18,7 @@ footer {
     position: absolute;
   }
   .sociales {
-    color: rgba(245, 229, 177, 0.993);
+    color: $colorone;
     text-decoration: none;
     text-align: left;
     position: absolute;
@@ -23,7 +26,7 @@ footer {
     margin-left: 2%;
   }
   .hola {
-    color: rgba(245, 229, 177, 0.993);
+    color: $colorone;
     text-decoration: none;
     display: inline;
     margin-left: 1%;

@@ -1,10 +1,13 @@
+$colorone: #f5e5b1fd;
+$colortwo: #b9a668fd;
+
 @media screen and (max-width: 1025px) {
   .botonesInicio {
     width: 100%;
     font-style: oblique;
-    background-color: #b9a668fd;
+    background-color: $colortwo;
     list-style-type: none;
-    color: #f5e5b1fd;
+    color: $colorone;
     text-align: center;
     border: none;
   }
@@ -43,7 +46,7 @@
 }
 @media screen and (min-width: 769px) {
   .sociales {
-    color: rgba(245, 229, 177, 0.993);
+    color: $colorone;
     text-decoration: none;
     text-align: left;
     position: absolute;
@@ -60,9 +63,9 @@
   .botonesInicio {
     width: 100%;
     font-style: oblique;
-    background-color: #b9a668fd;
+    background-color: $colortwo;
     list-style-type: none;
-    color: #f5e5b1fd;
+    color: $colorone;
     text-align: center;
     border: none;
   }
@@ -77,7 +80,7 @@
   }
   .nosotros video{
     width: 30rem;
-    border: 0.2rem #b9a668fd solid;
+    border: 0.2rem $colortwo solid;
     border-radius: 1.2rem;
   }
   footer {
@@ -116,7 +119,7 @@
   header {
     position: sticky;
     top: 0;
-    background-color: #f5e5b1fd;
+    background-color: $colorone;
   }
   .imglogo {
     width: 4.5rem;
@@ -130,9 +133,9 @@
   .botonesInicio {
     width: 100%;
     font-style: oblique;
-    background-color: #b9a668fd;
+    background-color: $colortwo;
     list-style-type: none;
-    color: #f5e5b1fd;
+    color: $colorone;
     text-align: center;
     border: none;
   }
@@ -202,7 +205,7 @@
   }
   .nosotros video{
     width: 19rem;
-    border: 0.2rem #b9a668fd solid;
+    border: 0.2rem $colortwo solid;
     border-radius: 1.2rem;
   }
   .maps {
@@ -252,9 +255,9 @@
   .botonesInicio {
     width: 100%;
     font-style: oblique;
-    background-color: #b9a668fd;
+    background-color: $colortwo;
     list-style-type: none;
-    color: #f5e5b1fd;
+    color: $colorone;
     text-align: center;
     border: none;
   }
@@ -276,7 +279,7 @@
   }
   .nosotros video{
     width: 16.5rem;
-    border: 0.2rem #b9a668fd solid;
+    border: 0.2rem $colortwo solid;
     border-radius: 1.2rem;
   }
   .maps {
@@ -309,9 +312,9 @@
   .botonesInicio {
     width: 100%;
     font-style: oblique;
-    background-color: #b9a668fd;
+    background-color: $colortwo;
     list-style-type: none;
-    color: #f5e5b1fd;
+    color: $colorone;
     text-align: center;
     border: none;
   }
@@ -333,7 +336,7 @@
   }
   .nosotros video{
     width: 15rem;
-    border: 0.2rem #b9a668fd solid;
+    border: 0.2rem $colortwo solid;
     border-radius: 1.2rem;
   }
   .maps {
